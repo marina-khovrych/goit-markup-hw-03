@@ -11,8 +11,7 @@
     width: 1200px;
     padding-left: 15px;
     scroll-padding-right: 15px;
-    outline: 2px solid tomato;
-    
+   /* outline: 2px solid tomato;*/  
 }
 .page-header {
     background-color: #ccc;
@@ -38,7 +37,7 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.06em;
     margin-top: 0;
     margin-bottom: 30px;
-    background-color: tomato;
+   /*background-color: tomato;*/
     left: 452px;
 }
 .section-title {
@@ -144,7 +143,6 @@ font-family: Roboto, sans-serif;
     text-align: center;
     letter-spacing: 0.06em;
     padding: 10px 32px;
-    text-align: center;
 }
 .my-btn:focus {
     color: #2196F3;
@@ -186,6 +184,13 @@ font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    width: 231px;
+    height: 21px;
+}
+.email {
+    margin-bottom: 9px;
 }
 .contacts {
     color: var(--footer-contacts-color);
@@ -195,7 +200,8 @@ font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-style: normal;
     text-decoration: none;
-    
+    width: 231px;
+    height: 21px;
 }
 .button-filter {
     color: var(--primary-text-color);  
@@ -258,6 +264,14 @@ font-family: Roboto, sans-serif;
 }
 .footer {
     background-color: #2F303A;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    scroll-padding-right: 15px;
+   /* outline: 2px solid tomato;*/
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .nav {
@@ -269,7 +283,7 @@ font-family: Roboto, sans-serif;
     background-color: #F5F4FA; 
 }
 .container {
-    outline: 2px solid tomato;
+   /* outline: 2px solid tomato;*/
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 94px;
@@ -282,7 +296,7 @@ font-family: Roboto, sans-serif;
 }
 .flex-element {
     margin-right: 30px; 
-    background-color: tomato;
+    /*background-color: tomato;*/
     width: calc((100% - 60px) / 3);
 }
 .flex-element:nth-last-child(-n + 3){
@@ -295,6 +309,19 @@ font-family: Roboto, sans-serif;
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    background-color: teal;
+  /*  background-color: teal;*/
     padding-inline-start: 0;    
+}
+.filter {
+    display: flex;
+    padding-inline-start: 0px;   
+    justify-content: center;
+}
+
+.filter-title {
+    margin-right: 8px;
+    display: inline-block;
+}
+.filter-title:nth-child(5n){
+    margin-right: 0;
 }
