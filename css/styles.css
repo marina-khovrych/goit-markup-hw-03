@@ -77,13 +77,19 @@ font-family: Roboto, sans-serif;
 .title .item:nth-last-child(-n + 1) {
     margin-right: 0;
 }
-.section-portfolio {
+.card-content .section-portfolio {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2px;
     letter-spacing: 0.06em;
+    margin-top: 0;
+
  }
+.section-portfolio {
+    padding-top: 20px;
+    margin-bottom: 4px;
+}
 .logo-header {
     color: #212121;
     text-decoration: none;
@@ -174,18 +180,20 @@ font-family: Roboto, sans-serif;
     padding-bottom: 30px;
     text-align: center;
 }
-.text-portfolio {
+.card-content .text-portfolio {
     color: #757575;
     font-size: 16px;
     line-height: 1.87em;
     letter-spacing: 0.03em;
     margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
 } 
 .card-content {
     padding: 20px, 24px;
-    border-left: 1px  solid tomato;
-    border-right: 1px  solid tomato;
-    border-bottom: 1px solid tomato;
+    border-left: 1px  solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }  
 
 
