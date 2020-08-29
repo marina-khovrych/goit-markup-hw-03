@@ -8,8 +8,6 @@
 .nav {
     margin-left: auto;
     margin-right: auto;
-    
-    width: 1200px;
     padding-left: 15px;
     scroll-padding-right: 15px;
   
@@ -42,8 +40,11 @@ font-family: Roboto, sans-serif;
     margin-bottom: 30px;
     left: 452px;
     font-family: Roboto, sans-serif;
-    }
-    
+}
+.studio-title {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -82,9 +83,7 @@ font-family: Roboto, sans-serif;
     font-size: 18px;
     line-height: 2px;
     letter-spacing: 0.06em;
-    margin-top: 20px;
-    margin-bottom: 4px;
-}
+ }
 .logo-header {
     color: #212121;
     text-decoration: none;
@@ -94,6 +93,10 @@ font-family: Roboto, sans-serif;
 .logo-white {
     color: #FFFFFF;
     font-family: Raleway, sans-serif; 
+}
+.web .logo-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .link {
     color:var(--primary-text-color);
@@ -177,7 +180,14 @@ font-family: Roboto, sans-serif;
     line-height: 1.87em;
     letter-spacing: 0.03em;
     margin-bottom: 0;
-}   
+} 
+.card-content {
+    padding: 20px, 24px;
+    border-left: 1px  solid tomato;
+    border-right: 1px  solid tomato;
+    border-bottom: 1px solid tomato;
+}  
+
 
 .address {
     color: var(--primary-white-color);
@@ -192,6 +202,8 @@ font-family: Roboto, sans-serif;
     margin-bottom: 9px;
     width: 231px;
     height: 21px;
+    
+    
 }
 .email {
     margin-bottom: 9px;
@@ -265,12 +277,14 @@ font-family: Roboto, sans-serif;
 .hero {
     background-color: #2F303A;  
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .footer {
     background-color: #2F303A;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    
     padding-left: 15px;
     scroll-padding-right: 15px;
  
@@ -285,19 +299,19 @@ font-family: Roboto, sans-serif;
 }
 .section-comands {
     background-color: #F5F4FA; 
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .container-studio {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 94px;
-    padding-bottom: 94px;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;    
     margin-left: auto;
     margin-right: auto;
-    }
+}
 .container {
     margin-top: 0;
     margin-bottom: 0;
